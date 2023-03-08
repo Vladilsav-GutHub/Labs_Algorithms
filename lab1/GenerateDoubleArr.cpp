@@ -10,7 +10,7 @@ void GenerateDoubleArr(double arr[], const int SIZE) {
 		arr[i] = random_double();
 
 	}
-	// Выводим сгенерированный массив на экран
+	// Р’С‹РІРѕРґРёРј СЃРіРµРЅРµСЂРёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ РЅР° СЌРєСЂР°РЅ
 	for (int i = 0; i < SIZE; i++) {
 		cout << arr[i] << " ";
 	}
