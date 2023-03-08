@@ -6,7 +6,7 @@ int GenerateRandomElementsArr(int arr[], const int SIZE) {
 	{
 		arr[i] = 1 + rand() % 5;
 
-		cout << arr[i] << setw(5);
+		cout << arr[i] << " ";
 	}
 
 	cout << "\n";

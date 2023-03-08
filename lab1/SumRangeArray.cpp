@@ -13,8 +13,19 @@ int SumRangeArray(int arr[], int startIndex, int endIndex) {
 
 }
 
-bool inRange(int index, int startIndex, int endIndex) {
+bool isSumRangeZero(int arr[], int startIndex, int endIndex) {
 
-	return (index >= startIndex && index <= endIndex);
+	int sum = 0;
+
+	for (int i = startIndex; i <= endIndex; i++) {
+		sum += arr[i];
+	}
+
+	if (sum == 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
 
 }

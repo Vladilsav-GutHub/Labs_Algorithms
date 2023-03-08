@@ -127,10 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BubleSort.cpp" />
+    <ClCompile Include="CountMultiples.cpp" />
+    <ClCompile Include="CountZeroElementsArr.cpp" />
+    <ClCompile Include="delElementArr.cpp" />
+    <ClCompile Include="FileInputOutputBinary.cpp" />
+    <ClCompile Include="GenerateDoubleArr.cpp" />
     <ClCompile Include="GenerateRandomElementsArr.cpp" />
+    <ClCompile Include="inputArr.cpp" />
+    <ClCompile Include="inputElementsArrTxtFile.cpp" />
     <ClCompile Include="insertElementArr.cpp" />
+    <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="lab1.cpp" />
+    <ClCompile Include="LinearSearchMinMax.cpp" />
+    <ClCompile Include="MultiplicationMaxMinModElArr.cpp" />
+    <ClCompile Include="NegativeElementsArr.cpp" />
+    <ClCompile Include="PositiveElementsArr.cpp" />
     <ClCompile Include="ProizvedRangeArr.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
+    <ClCompile Include="SumPositiveElementsArr.cpp" />
     <ClCompile Include="SumRangeArray.cpp" />
   </ItemGroup>
   <ItemGroup>
