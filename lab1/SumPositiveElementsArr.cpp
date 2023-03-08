@@ -9,6 +9,6 @@ void sum_of_positive_elements(double arr[], const int SIZE) {
             sum += arr[i];
         }
     }
-    cout << "Ñóììà ïîëîæèòåëüíûõ ýëåìåíòîâ ìàññèâà = " << sum << endl;
+    cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ñ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° = " << sum << endl;
 
 }
