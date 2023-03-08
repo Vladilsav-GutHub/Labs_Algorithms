@@ -2,14 +2,14 @@
 
 int inputArr(int array[], int n) {
 
-	cout << "Ââåäèòå " << n << " ıëåìåíòîâ ìàññèâà\n";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ " << n << " ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ¾Ğ² Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ°\n";
 
 	for (int i = 0; i < n; i++)
 	{
 		cin >> array[i];
 	}
 
-	cout << "Ğåçóëüòàò: " << endl;
+	cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << endl;
 
 	for (int i = 0; i < n; i++)
 	{
