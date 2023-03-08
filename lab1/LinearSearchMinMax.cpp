@@ -18,8 +18,8 @@ int LinearSearchMinMax(int array[], int& size) {
 		}
 	}
 
-	cout << "Ìèíèìàëüíûé ıëåìåíò: " << min << endl;
-	cout << "Ìàêñèìàëüíûé ıëåìåíò: " << max << endl;
+	cout << "ĞœĞ¸Ğ½Ğ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: " << min << endl;
+	cout << "ĞœĞ°ĞºÑĞ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: " << max << endl;
 
 	return min, max;
 
