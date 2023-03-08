@@ -8,16 +8,16 @@ int inputElementsArrTxtFile(int array[], int n, const int MAX_SIZE) {
 	ofstream outFile("C:/Users/admin/Documents/data.txt");
 	ifstream inFile("C:/Users/admin/Documents/data.txt");
 
-	// Ввод элементов массива и запись в файл
-		cout << "Введите элементы массива: ";
+	// Р’РІРѕРґ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° Рё Р·Р°РїРёСЃСЊ РІ С„Р°Р№Р»
+		cout << "Р’РІРµРґРёС‚Рµ СЌР»РµРјРµРЅС‚С‹ РјР°СЃСЃРёРІР°: ";
 	for (int i = 0; i < n; i++) {
 		cin >> array[i];
 		outFile << array[i] << " ";
 	}
 	outFile.close();
 
-	// Чтение элементов массива из файла и вывод
-	cout << "Элементы массива из файла: ";
+	// Р§С‚РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° РёР· С„Р°Р№Р»Р° Рё РІС‹РІРѕРґ
+	cout << "Р­Р»РµРјРµРЅС‚С‹ РјР°СЃСЃРёРІР° РёР· С„Р°Р№Р»Р°: ";
 	for (int i = 0; i < n; i++) {
 		inFile >> array[i];
 		cout << array[i] << " ";
