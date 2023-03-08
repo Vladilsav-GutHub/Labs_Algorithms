@@ -14,10 +14,10 @@ int ProizvedRangeArr(int arr[], int startIndex, int endIndex) {
 
 bool ProizvedRangeArr(int arr[], int size, int startIndex, int endIndex, int& result)
 {
-    // проверяем, что индексы находятся в допустимом диапазоне
+    // РїСЂРѕРІРµСЂСЏРµРј, С‡С‚Рѕ РёРЅРґРµРєСЃС‹ РЅР°С…РѕРґСЏС‚СЃСЏ РІ РґРѕРїСѓСЃС‚РёРјРѕРј РґРёР°РїР°Р·РѕРЅРµ
     if (startIndex < 0 || startIndex >= size || endIndex < 0 || endIndex >= size || startIndex > endIndex)
     {
-        return false; // возвращаем false, если индексы некорректны
+        return false; // РІРѕР·РІСЂР°С‰Р°РµРј false, РµСЃР»Рё РёРЅРґРµРєСЃС‹ РЅРµРєРѕСЂСЂРµРєС‚РЅС‹
     }
 
     int proizved = 1;
@@ -27,7 +27,7 @@ bool ProizvedRangeArr(int arr[], int size, int startIndex, int endIndex, int& re
         proizved *= arr[i];
     }
 
-    result = proizved; // передаем результат через ссылку
+    result = proizved; // РїРµСЂРµРґР°РµРј СЂРµР·СѓР»СЊС‚Р°С‚ С‡РµСЂРµР· СЃСЃС‹Р»РєСѓ
 
-    return true; // возвращаем true, если функция успешно отработала
+    return true; // РІРѕР·РІСЂР°С‰Р°РµРј true, РµСЃР»Рё С„СѓРЅРєС†РёСЏ СѓСЃРїРµС€РЅРѕ РѕС‚СЂР°Р±РѕС‚Р°Р»Р°
 }
